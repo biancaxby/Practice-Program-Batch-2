@@ -1,0 +1,1 @@
+# Print the quotient of the two numbers without the decimal point
