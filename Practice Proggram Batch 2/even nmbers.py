@@ -1,18 +1,16 @@
 #Print how many are even numbers.
 def even_count():
-    num = []
+    number = []
     
     for i in range(10):
         while True:
             try:
-                number = int(input(f'Enter a number: '))
-                num.append(number)
+                num = int(input(f'Enter a number: '))
+                number.append(num)
                 break
             except ValueError:
-                print("hah")
-
-even_count_1 = sum(1 for n in num if n % 2 == 0)
-
-print(f"there are {even_count_1} number/s.")
+                print("Error. Enter an integer.")
+    even_count_1 = sum(1 for number in num if num % 2 == 0)
+    print(f"there are {even_count_1} number/s.")
 
 even_count()
