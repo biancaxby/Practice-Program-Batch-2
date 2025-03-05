@@ -11,7 +11,7 @@ def even_count():
             except ValueError:
                 print("hah")
 
-even_count_1 = sum(1 for num in number if num %2 == 0) 
+even_count_1 = sum(1 for n in num if n % 2 == 0)
 
 print(f"there are {even_count_1} number/s.")
 
